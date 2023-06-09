@@ -1,7 +1,7 @@
 const config = require('./config.json');
 const axios = require('axios');
 
-module.exports.getGameDeals = async function () {
+module.exports.getGameDeals = async function (callback) {
   try {
     const { data } = await axios.get(
       config.giveawayURL
