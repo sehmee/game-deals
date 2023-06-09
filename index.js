@@ -7,7 +7,7 @@ module.exports.getGameDeals = async function () {
       config.giveawayURL
     );
 
-      return data;
+    return callback (data);
 
   } catch (error) {
     throw error;
