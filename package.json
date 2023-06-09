@@ -1,0 +1,22 @@
+{
+  "name": "game-deals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehmee/game-deals.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "Sehmee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sehmee/game-deals/issues"
+  },
+  "homepage": "https://github.com/sehmee/game-deals#readme"
+}
