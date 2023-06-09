@@ -1,5 +1,14 @@
-exports.printMsg = function() {
-    console.log("This is a test message from the game-deals package.");
-  }
+const config = require('./config.json');
 
-// version 1.0.1
+module.exports.getGameDeals = async function () {
+  try {
+    const { data } = await axios.get(
+      config.giveawayURL
+    );
+
+      return data;
+
+  } catch (error) {
+    throw error;
+  }
+};
