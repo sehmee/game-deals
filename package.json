@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sehmee/game-deals/issues"
   },
+  "devDependencies": {
+    "axios": "^1.4.0"
+  },
   "homepage": "https://github.com/sehmee/game-deals#readme"
 }
