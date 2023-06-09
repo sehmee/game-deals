@@ -65,4 +65,4 @@ response[0].title
 
 ## Data source
 
-This package uses the data source from https://www.gamerpower.com/api-read
+This package uses the data source from https://www.gamerpower.com
